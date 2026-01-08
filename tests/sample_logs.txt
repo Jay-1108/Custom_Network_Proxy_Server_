@@ -1,0 +1,307 @@
+2025-12-22 14:25:06 - INFO - Proxy server running on port 8888
+2025-12-22 14:27:43 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 14:28:22 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 14:28:22 - INFO - CACHE KEY: httpbin.org:get
+2025-12-22 14:28:22 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 14:28:22 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 14:28:28 - INFO - Cache STORED: httpbin.org:get (len=524)
+2025-12-22 14:28:28 - INFO - GET httpbin.org:80 - OK
+2025-12-22 14:28:50 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 14:30:22 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 14:30:22 - INFO - CACHE KEY: httpbin.org:get
+2025-12-22 14:30:22 - INFO - CACHE DEBUG: key exists=True, cached=True
+2025-12-22 14:30:22 - INFO - CACHE HIT: httpbin.org:get
+2025-12-22 14:30:22 - INFO - GET httpbin.org:80 - CACHE HIT
+2025-12-22 21:00:37 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 21:02:15 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 21:02:15 - INFO - CACHE KEY: httpbin.org:get
+2025-12-22 21:02:15 - INFO - CACHE DEBUG: key exists=True, cached=True
+2025-12-22 21:02:15 - INFO - CACHE HIT: httpbin.org:get
+2025-12-22 21:02:15 - INFO - GET httpbin.org:80 - CACHE HIT
+2025-12-22 21:02:21 - INFO - RAW REQUEST: 'bPOST http://httpbin.org/post HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\nContent-Length: 23\r\nC'...
+2025-12-22 21:02:21 - INFO - CACHE KEY: httpbin.org:post
+2025-12-22 21:02:21 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 21:02:21 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 21:02:28 - INFO - POST httpbin.org:80 - OK
+2025-12-22 21:02:34 - INFO - RAW REQUEST: b'PUT http://httpbin.org/put HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\nContent-Length: 23\r\nCon'...
+2025-12-22 21:02:34 - INFO - CACHE KEY: httpbin.org:put
+2025-12-22 21:02:34 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 21:02:34 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 21:02:40 - INFO - PUT httpbin.org:80 - OK
+2025-12-22 21:02:45 - INFO - RAW REQUEST: b'DELETE http://httpbin.org/delete HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 21:02:46 - INFO - CACHE KEY: httpbin.org:delete
+2025-12-22 21:02:46 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 21:02:46 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 21:02:51 - INFO - DELETE httpbin.org:80 - OK
+2025-12-22 21:02:57 - INFO - RAW REQUEST: b'PATCH http://httpbin.org/patch HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\nContent-Length: 12\r'...
+2025-12-22 21:02:57 - INFO - CACHE KEY: httpbin.org:patch
+2025-12-22 21:02:57 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 21:02:57 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 21:03:02 - INFO - PATCH httpbin.org:80 - OK
+2025-12-22 21:03:08 - INFO - RAW REQUEST: b'OPTIONS http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 21:03:08 - INFO - CACHE KEY: httpbin.org:get
+2025-12-22 21:03:08 - INFO - CACHE DEBUG: key exists=True, cached=True
+2025-12-22 21:03:08 - INFO - CACHE HIT: httpbin.org:get
+2025-12-22 21:03:08 - INFO - GET httpbin.org:80 - CACHE HIT
+
+
+
+
+
+
+
+
+
+2025-12-22 21:23:51 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 21:23:51 - INFO - CACHE KEY: httpbin.org:get
+2025-12-22 21:23:51 - INFO - CACHE DEBUG: key exists=True, cached=True
+2025-12-22 21:23:51 - INFO - CACHE HIT: httpbin.org:get
+2025-12-22 21:23:51 - INFO - GET httpbin.org:80 - CACHE HIT
+2025-12-22 21:23:56 - INFO - RAW REQUEST: b'POST http://httpbin.org/post HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\nContent-Length: 23\r\nC'...
+2025-12-22 21:23:56 - INFO - CACHE KEY: httpbin.org:post
+2025-12-22 21:23:56 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 21:23:56 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 21:24:02 - INFO - POST httpbin.org:80 - OK
+2025-12-22 21:24:07 - INFO - RAW REQUEST: b'PUT http://httpbin.org/put HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\nContent-Length: 23\r\nCon'...
+2025-12-22 21:24:07 - INFO - CACHE KEY: httpbin.org:put
+2025-12-22 21:24:07 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 21:24:07 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 21:24:13 - INFO - PUT httpbin.org:80 - OK
+2025-12-22 21:24:19 - INFO - RAW REQUEST: b'DELETE http://httpbin.org/delete HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 21:24:19 - INFO - CACHE KEY: httpbin.org:delete
+2025-12-22 21:24:19 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 21:24:19 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 21:24:25 - INFO - DELETE httpbin.org:80 - OK
+2025-12-22 21:24:31 - INFO - RAW REQUEST: b'PATCH http://httpbin.org/patch HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\nContent-Length: 12\r'...
+2025-12-22 21:24:31 - INFO - CACHE KEY: httpbin.org:patch
+2025-12-22 21:24:31 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 21:24:31 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 21:24:37 - INFO - PATCH httpbin.org:80 - OK
+2025-12-22 21:24:42 - INFO - RAW REQUEST: b'OPTIONS http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 21:24:42 - INFO - CACHE KEY: httpbin.org:get
+2025-12-22 21:24:42 - INFO - CACHE DEBUG: key exists=True, cached=True
+2025-12-22 21:24:42 - INFO - CACHE HIT: httpbin.org:get
+2025-12-22 21:24:42 - INFO - GET httpbin.org:80 - CACHE HIT
+
+
+
+
+
+
+
+
+2025-12-22 21:35:52 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 21:35:52 - INFO - CACHE KEY: httpbin.org:get
+2025-12-22 21:35:52 - INFO - CACHE DEBUG: key exists=True, cached=True
+2025-12-22 21:35:52 - INFO - CACHE HIT: httpbin.org:get
+2025-12-22 21:35:52 - INFO - GET httpbin.org:80 - CACHE HIT
+2025-12-22 21:35:57 - INFO - RAW REQUEST: b'POST http://httpbin.org/post HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\nContent-Length: 23\r\nC'...
+2025-12-22 21:35:57 - INFO - CACHE KEY: httpbin.org:post
+2025-12-22 21:35:57 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 21:35:57 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 21:36:04 - INFO - POST httpbin.org:80 - OK
+2025-12-22 21:36:09 - INFO - RAW REQUEST: b'PUT http://httpbin.org/put HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\nContent-Length: 23\r\nCon'...
+2025-12-22 21:36:09 - INFO - CACHE KEY: httpbin.org:put
+2025-12-22 21:36:09 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 21:36:09 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 21:36:15 - INFO - PUT httpbin.org:80 - OK
+2025-12-22 21:36:21 - INFO - RAW REQUEST: b'DELETE http://httpbin.org/delete HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 21:36:21 - INFO - CACHE KEY: httpbin.org:delete
+2025-12-22 21:36:21 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 21:36:21 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 21:36:27 - INFO - DELETE httpbin.org:80 - OK
+2025-12-22 21:36:32 - INFO - RAW REQUEST: b'PATCH http://httpbin.org/patch HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\nContent-Length: 12\r'...
+2025-12-22 21:36:32 - INFO - CACHE KEY: httpbin.org:patch
+2025-12-22 21:36:32 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 21:36:32 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 21:36:39 - INFO - PATCH httpbin.org:80 - OK
+2025-12-22 21:36:44 - INFO - RAW REQUEST: b'OPTIONS http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 21:36:44 - INFO - CACHE KEY: httpbin.org:get
+2025-12-22 21:36:44 - INFO - CACHE DEBUG: key exists=True, cached=True
+2025-12-22 21:36:44 - INFO - CACHE HIT: httpbin.org:get
+2025-12-22 21:36:44 - INFO - GET httpbin.org:80 - CACHE HIT
+
+
+
+
+
+2025-12-22 21:50:03 - INFO - RAW REQUEST: b'POST http://httpbin.org/post HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\nContent-Length: 23\r\nC'...
+2025-12-22 21:50:03 - INFO - CACHE KEY: httpbin.org:post
+2025-12-22 21:50:03 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 21:50:03 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 21:50:13 - INFO - POST httpbin.org:80 - OK
+2025-12-22 21:50:35 - INFO - RAW REQUEST: b'POST http://httpbin.org/post HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\nContent-Length: 23\r\nC'...
+2025-12-22 21:50:35 - INFO - CACHE KEY: httpbin.org:post
+2025-12-22 21:50:35 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 21:50:35 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 21:50:41 - INFO - POST httpbin.org:80 - OK
+
+
+
+
+
+
+
+
+2025-12-22 22:02:20 - INFO - RAW REQUEST: b'POST http://httpbin.org/post HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\nContent-Length: 23\r\nC'...
+2025-12-22 22:02:20 - INFO - CACHE KEY: httpbin.org:post
+2025-12-22 22:02:20 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 22:02:20 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 22:02:26 - INFO - POST httpbin.org:8
+
+
+
+
+
+
+
+
+
+2025-12-22 22:30:30 - INFO - RAW REQUEST: b'POST http://httpbin.org/post HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\nContent-Length: 35\r\nC'...
+2025-12-22 22:30:30 - INFO - CACHE KEY: httpbin.org:post
+2025-12-22 22:30:30 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 22:30:30 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 22:30:36 - INFO - POST httpbin.org:80 - OK
+2025-12-22 22:31:05 - INFO - RAW REQUEST: b'POST http://httpbin.org/post HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\nContent-Length: 35\r\nC'...
+2025-12-22 22:31:05 - INFO - CACHE KEY: httpbin.org:post
+2025-12-22 22:31:05 - INFO - CACHE DEBUG: key exists=False, cached=False
+2025-12-22 22:31:05 - INFO - CACHE MISS - Fetching from server: httpbin.org
+2025-12-22 22:31:13 - INFO - POST httpbin.org:80 - OK
+2025-12-22 22:47:25 - INFO - Proxy server running on port 8888
+2025-12-22 22:48:01 - INFO - RAW REQUEST: b'GET http://httpbin.org/bytes/500000 HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 22:48:01 - INFO - GET httpbin.org:80 Content-Length=0 - OK
+
+
+
+
+
+
+
+2025-12-22 23:17:40 - INFO - RAW REQUEST: b'CONNECT httpbin.org:443 HTTP/1.1\r\nHost: httpbin.org:443\r\nUser-Agent: curl/8.13.0\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 23:17:40 - INFO - CONNECT httpbin.org:443 Content-Length=0 - OK
+
+
+
+
+2025-12-22 23:21:20 - INFO - RAW REQUEST: b'CONNECT httpbin.org:443 HTTP/1.1\r\nHost: httpbin.org:443\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 23:21:20 - INFO - CONNECT httpbin.org:443 Content-Length=0 - OK
+2025-12-22 23:21:23 - INFO - HTTPS Tunnel Established: httpbin.org:443
+2025-12-22 23:34:28 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 23:34:28 - INFO - GET httpbin.org:80 Content-Length=0 - OK
+2025-12-22 23:34:28 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 23:34:28 - INFO - GET httpbin.org:80 Content-Length=0 - OK
+2025-12-22 23:34:28 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 23:34:28 - INFO - GET httpbin.org:80 Content-Length=0 - OK
+2025-12-22 23:34:28 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 23:34:28 - INFO - GET httpbin.org:80 Content-Length=0 - OK
+2025-12-22 23:34:29 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 23:34:29 - INFO - GET httpbin.org:80 Content-Length=0 - OK
+2025-12-22 23:34:29 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 23:34:29 - INFO - GET httpbin.org:80 Content-Length=0 - OK
+2025-12-22 23:34:29 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 23:34:29 - INFO - GET httpbin.org:80 Content-Length=0 - OK
+2025-12-22 23:34:29 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 23:34:29 - INFO - GET httpbin.org:80 Content-Length=0 - OK
+2025-12-22 23:34:30 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 23:34:30 - INFO - GET httpbin.org:80 Content-Length=0 - OK
+2025-12-22 23:34:30 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 23:34:30 - INFO - GET httpbin.org:80 Content-Length=0 - OK
+2025-12-22 23:39:17 - INFO - RAW REQUEST: b'GET http://httpbin.org/bytes/50000 HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 23:39:17 - INFO - GET httpbin.org:80 Content-Length=0 - OK
+2025-12-22 23:39:17 - INFO - CACHE KEY: httpbin.org:bytes/50000
+2025-12-22 23:39:25 - INFO - GET httpbin.org:80 Content-Length=0 - OK
+2025-12-22 23:39:46 - INFO - RAW REQUEST: b'GET http://httpbin.org/stream/50 HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 23:39:46 - INFO - GET httpbin.org:80 Content-Length=0 - OK
+2025-12-22 23:39:46 - INFO - CACHE KEY: httpbin.org:stream/50
+2025-12-22 23:39:53 - INFO - GET httpbin.org:80 Content-Length=0 - OK
+2025-12-22 23:40:30 - INFO - RAW REQUEST: b'GET http://10.255.255.1/ HTTP/1.1\r\nHost: 10.255.255.1\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-22 23:40:30 - INFO - GET 10.255.255.1:80 Content-Length=0 - OK
+2025-12-22 23:40:30 - INFO - CACHE KEY: 10.255.255.1:
+2025-12-22 23:40:40 - ERROR - Failed to fetch from server: timed out
+
+
+
+
+
+2025-12-23 00:07:54 - INFO - Proxy server running on port 8888
+2025-12-23 00:08:35 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-23 00:08:35 - INFO - REQUEST GET httpbin.org:80 Content-Length=0
+2025-12-23 00:08:35 - INFO - CACHE KEY: httpbin.org:get
+2025-12-23 00:08:47 - INFO - GET httpbin.org:80 Content-Length=0 - STREAMED
+2025-12-23 00:09:36 - INFO - RAW REQUEST: b'CONNECT httpbin.org:443 HTTP/1.1\r\nHost: httpbin.org:443\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-23 00:09:36 - INFO - REQUEST CONNECT httpbin.org:443 Content-Length=0
+2025-12-23 00:09:36 - INFO - CONNECT request received for httpbin.org:443
+2025-12-23 00:09:37 - INFO - HTTPS Tunnel Established: httpbin.org:443
+
+
+
+2025-12-23 00:10:34 - INFO - RAW REQUEST: b'CONNECT speed.hetzner.de:443 HTTP/1.1\r\nHost: speed.hetzner.de:443\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-23 00:10:34 - INFO - REQUEST CONNECT speed.hetzner.de:443 Content-Length=0
+2025-12-23 00:10:34 - INFO - CONNECT request received for speed.hetzner.de:443
+2025-12-23 00:10:34 - INFO - HTTPS Tunnel Established: speed.hetzner.de:443
+
+
+
+
+2025-12-23 00:13:06 - INFO - RAW REQUEST: b'GET http://speed.hetzner.de/100MB.bin HTTP/1.1\r\nHost: speed.hetzner.de\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-23 00:13:06 - INFO - REQUEST GET speed.hetzner.de:80 Content-Length=0
+2025-12-23 00:13:06 - INFO - CACHE KEY: speed.hetzner.de:100MB.bin
+2025-12-23 00:13:16 - INFO - GET speed.hetzner.de:80 Content-Length=0 - STREAMED
+2025-12-23 00:17:03 - INFO - RAW REQUEST: b'POST http://httpbin.org/post HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\nContent-Length: 23\r\nC'...
+2025-12-23 00:17:03 - INFO - REQUEST POST httpbin.org:80 Content-Length=23
+2025-12-23 00:17:03 - INFO - CACHE KEY: httpbin.org:post
+2025-12-23 00:17:16 - INFO - POST httpbin.org:80 Content-Length=23 - STREAMED
+2025-12-23 00:17:32 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-23 00:17:32 - INFO - REQUEST GET httpbin.org:80 Content-Length=0
+2025-12-23 00:17:32 - INFO - CACHE KEY: httpbin.org:get
+2025-12-23 00:17:33 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-23 00:17:33 - INFO - REQUEST GET httpbin.org:80 Content-Length=0
+2025-12-23 00:17:33 - INFO - CACHE KEY: httpbin.org:get
+2025-12-23 00:17:43 - INFO - GET httpbin.org:80 Content-Length=0 - STREAMED
+2025-12-23 00:17:44 - INFO - GET httpbin.org:80 Content-Length=0 - STREAMED
+2025-12-23 00:18:03 - INFO - RAW REQUEST: b'GET http://httpbin.org/get HTTP/1.1\r\nHost: httpbin.org\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r\n'...
+2025-12-23 00:18:03 - INFO - REQUEST GET httpbin.org:80 Content-Length=0
+2025-12-23 00:18:03 - INFO - CACHE KEY: httpbin.org:get
+2025-12-23 00:18:16 - INFO - GET httpbin.org:80 Content-Length=0 - STREAMED
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2026-01-05 09:05:16 - INFO - Proxy server running on port 8888
+
+
+
+
+
+2026-01-06 20:07:22 - INFO - Proxy server running on port 8888
+2026-01-06 20:10:34 - INFO - RAW REQUEST: b'GET http://speedtest.tele2.net/100MB.zip HTTP/1.1\r\nHost: speedtest.tele2.net\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r'...
+2026-01-06 20:10:34 - INFO - REQUEST GET speedtest.tele2.net:80 Content-Length=0
+2026-01-06 20:10:34 - INFO - CACHE KEY: speedtest.tele2.net:100MB.zip
+2026-01-06 20:10:49 - INFO - GET speedtest.tele2.net:80 Content-Length=0 - STREAMED
+2026-01-08 07:38:22 - INFO - Proxy server running on port 8888
+2026-01-08 07:38:45 - INFO - RAW REQUEST: b'GET / HTTP/1.1\r\n\r\n'...
+2026-01-08 07:38:45 - INFO - REQUEST GET :80 Content-Length=0
+2026-01-08 07:38:47 - INFO - RAW REQUEST: b'GET http:///invalid_path HTTP/1.1\r\nHost: example.com\r\n\r\n'...
+2026-01-08 07:38:47 - INFO - REQUEST GET :80 Content-Length=0
+2026-01-08 07:38:49 - INFO - RAW REQUEST: b'UNKNOWNMETHOD /resource HTTP/1.1\r\nHost: example.com\r\n\r\n'...
+2026-01-08 07:38:49 - INFO - REQUEST UNKNOWNMETHOD example.com:80 Content-Length=0
+2026-01-08 07:38:51 - INFO - RAW REQUEST: b''...
+2026-01-08 07:38:51 - ERROR - Malformed request
+2026-01-08 07:38:53 - INFO - RAW REQUEST: b'GET /xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'...
+2026-01-08 07:38:53 - INFO - REQUEST GET example.com:80 Content-Length=0
+2026-01-08 07:38:55 - INFO - RAW REQUEST: b'!!@@##%%%%^^^^&&&&****((((()))))randomDATA123\n\n'...
+2026-01-08 07:38:55 - ERROR - Malformed request
+2026-01-08 07:44:27 - INFO - RAW REQUEST: b'GET http://speedtest.tele2.net/100MB.zip HTTP/1.1\r\nHost: speedtest.tele2.net\r\nProxy-Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM=\r\nUser-Agent: curl/8.13.0\r\nAccept: */*\r\nProxy-Connection: Keep-Alive\r\n\r'...
+2026-01-08 07:44:27 - INFO - REQUEST GET speedtest.tele2.net:80 Content-Length=0
+2026-01-08 07:44:27 - INFO - CACHE KEY: speedtest.tele2.net:100MB.zip
+2026-01-08 07:49:38 - INFO - GET speedtest.tele2.net:80 Content-Length=0 - STREAMED

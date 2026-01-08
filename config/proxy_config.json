@@ -1,0 +1,7 @@
+{
+  "listen_port": 8888,
+  "thread_pool_size": 10,
+  "log_file": "tests/sample_logs.txt",
+  "cache_enabled": true,
+  "cache_size": 50
+}
