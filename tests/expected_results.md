@@ -9,6 +9,26 @@ All tests assume:
 - Correct proxy credentials are used where required
 - Tests are executed using PowerShell with `curl.exe`
 
+##  How to Start the Proxy Server
+
+The proxy server can be started using the provided **Makefile**, which simplifies execution and ensures consistency.
+
+### Prerequisites
+- Python 3.8 or above installed
+- `make` utility available (Git Bash / MSYS2 / WSL recommended on Windows)
+
+### Steps to Run
+
+1. Open a terminal in the project root directory.
+2. Start the proxy server using the following command:
+```
+make run
+```
+On successful startup, the following message will appear:
+INFO - Proxy server running on port 8888
+The proxy will now listen for incoming client connections on the configured port.
+
+ Keep this terminal open while running tests, as the proxy must remain active.
 ---
 
 ## 1. Authentication Test (`test_auth.ps1`)
