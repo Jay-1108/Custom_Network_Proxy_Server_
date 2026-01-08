@@ -1,5 +1,7 @@
 # Custom Network Proxy Server
 
+https://github.com/user-attachments/assets/9ed128fa-1da6-4912-8874-3d3c2452fb99
+
 A multi-threaded **HTTP and HTTPS proxy server** implemented in Python.  
 This proxy supports **concurrent clients**, **authentication**, **domain filtering**,
 **HTTPS tunneling (CONNECT method)**, **streaming-based forwarding**, and **optional caching**.
@@ -8,7 +10,7 @@ The project is designed for academic evaluation and demonstrates practical netwo
 and system design concepts used in real-world proxy servers.
 
 ---
-##  How to Start the Proxy Server
+##  How to Start the Proxy Server(Watch attached video)
 
 The proxy server can be started using the provided **Makefile**, which simplifies execution and ensures consistency.
 
@@ -238,3 +240,4 @@ evaluation and learning purposes.
 
 Author: A JAYENDRA SHIVASAI,
          IIT Roorkee
+
