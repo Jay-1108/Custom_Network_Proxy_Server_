@@ -8,7 +8,26 @@ The project is designed for academic evaluation and demonstrates practical netwo
 and system design concepts used in real-world proxy servers.
 
 ---
+##  How to Start the Proxy Server
 
+The proxy server can be started using the provided **Makefile**, which simplifies execution and ensures consistency.
+
+### Prerequisites
+- Python 3.8 or above installed
+- `make` utility available (Git Bash / MSYS2 / WSL recommended on Windows)
+
+### Steps to Run
+
+1. Open a terminal in the project root directory.
+2. Start the proxy server using the following command:
+```
+make run
+```
+On successful startup, the following message will appear:
+INFO - Proxy server running on port 8888
+The proxy will now listen for incoming client connections on the configured port.
+
+ Keep this terminal open while running tests, as the proxy must remain active.
 ##  Features
 
 - HTTP request forwarding
@@ -98,6 +117,7 @@ Example:
   "thread_pool_size": 10,
   "log_file": "proxy.log"
 }
+```
 
 # Running the Proxy Server
 1 Install Python (if not installed)
@@ -208,7 +228,7 @@ This project demonstrates:
 
   Proxy server architecture
 
-📌# Conclusion
+# Conclusion
 
   The Custom Network Proxy Server provides a clear, modular, and practical
 implementation of a real-world proxy system.
@@ -216,5 +236,5 @@ It balances simplicity and functionality, making it well-suited for academic
 evaluation and learning purposes.
 
 
-Author: A JAYENDRA SHIVASAI
-        IIT Roorkee
+Author: A JAYENDRA SHIVASAI,
+         IIT Roorkee
